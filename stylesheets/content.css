@@ -6,15 +6,15 @@ h1{
   line-height: 1.35vw;
   font-weight: 700;
   margin-left: 0.9vw;
-  margin-top: 1.2vh;
+  margin-top: 0.9vw;
 }
 p{
   font-family: 'Montserrat';
-  font-size: 1.09vw;
-  line-height: 1.19vw;
+  font-size: 2vh;
+  line-height: 2.23vh;
   font-weight: 400;
   margin-left: 0.5vw;
-  margin-top: 0.9vh;
+  margin-top: 0.5vw;
 }
 body{
   width: 100vw;
@@ -72,11 +72,11 @@ section{
 }
 .basenokia{
   position: absolute;
-  width: 6.9vw;
+  width: 13vh;
   height: 25.4vh;
   transform: rotate(60deg);
-  top: 7vw;
-  left: 21vh;
+  top: 12vh;
+  left: 11vw;
   background-image: url('../img/bnokia.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -86,9 +86,9 @@ section{
 }
 .basetv{
   position: absolute;
-  width: 24vw;
+  width: 36.6vh;
   height: 36.6vh;
-  top: 2vh;
+  top: 6vh;
   left: 36vw;
   background-image: url('../img/btv.png');
   background-size: contain;
@@ -99,9 +99,9 @@ section{
 }
 .baseplayer{
   position: absolute;
-  width: 25.2vw;
+  width: 36.3vh;
   height: 36.2vh;
-  top: 0vh;
+  top: 5vh;
   left: 5vw;
   background-image: url('../img/bplayer.png');
   background-size: contain;
@@ -112,9 +112,9 @@ section{
 }
 .basepolaroid{
   position: absolute;
-  width: 15.3vw;
+  width: 22.6vh;
   height: 22.5vh;
-  top: 13vh;
+  top: 16vh;
   left: 41vw;
   background-image: url('../img/bpolaroid.png');
   background-size: contain;
@@ -125,10 +125,10 @@ section{
 }
 .basepc{
   position: absolute;
-  width: 30.8vw;
+  width: 54.8vh;
   height: 37.3vh;
   top: -2vh;
-  left: 65vw;
+  right: 2vw;
   background-image: url('../img/bpc.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -181,7 +181,7 @@ section{
 }
 .mtext7{
   top: 36.6vh;
-  left: 76vw;
+  right: 7vw;
 }
 .mtext8{
   position: absolute;
