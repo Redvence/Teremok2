@@ -6,8 +6,14 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
+  $(".basetv").click(function(){
+    $(".sectionmain").css("display","none");
+    $(".tvsection").css("display","block");
+  });
+});
+$(document).ready(function(){
   $(".back").click(function(){
-    $(".nokiasection").css("display","none");
+    $(".nokiasection, .tvsection").css("display","none");
     $(".sectionmain").css("display","block");
   });
 });
@@ -56,9 +62,23 @@ let current = 1;
             current--;
             }
             else if (current == 3){
-            $(".msg1, .msg3, .msg4").css("display","none");
+            $(".msg1, .msg3, .msg4").css("display", "none");
             $(".msg2").css("display", "block");
             current--;
             }
           });
         });
+  //ТВ
+  $(function() {
+      $( ".tape" ).draggable();
+      });
+      let inside = false;
+
+      $(function() {
+          $(".tape").draggable();
+          $(".tapeinall").droppable({
+              drop: function() {
+                  $(".tape").css("display", "none");
+              }
+          });
+      });

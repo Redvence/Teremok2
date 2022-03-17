@@ -29,3 +29,4 @@
     border-top: 0px;
   }
 }
+if ((top > 73.1 && left > 0.8) || (top < 97.2 && left < 56)){

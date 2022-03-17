@@ -96,6 +96,7 @@ section{
   background-image: url('../img/btv.png');
   background-size: contain;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 .basetv:hover{
   background-image: url('../img/tvcolor.png');
@@ -109,6 +110,7 @@ section{
   background-image: url('../img/bplayer.png');
   background-size: contain;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 .baseplayer:hover{
   background-image: url('../img/playercolor.png');
@@ -122,6 +124,7 @@ section{
   background-image: url('../img/bpolaroid.png');
   background-size: contain;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 .basepolaroid:hover{
   background-image: url('../img/polaroidcolor.png');
@@ -135,6 +138,7 @@ section{
   background-image: url('../img/bpc.png');
   background-size: contain;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 .basepc:hover{
   background-image: url('../img/pccolor.png');
@@ -192,7 +196,7 @@ section{
   margin-left: 0.9vw;
   margin-top: 1.2vh;
 }
-/*нокиа*/
+/*НОКИА НОКИА НОКИА НОКИА НОКИА НОКИА НОКИА НОКИА*/
 .nokiasection{
   display: none;
 }
@@ -227,6 +231,7 @@ section{
   top: 5.6vh;
   left: 2vw;
   cursor: pointer;
+  z-index: 2;
 }
 .back:hover{
   background-color: #FCDED7;
@@ -274,7 +279,6 @@ section{
 }
 .b1{
   position: absolute;
-  display: block;
   background-image: url('../img/b1.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -285,7 +289,6 @@ section{
 }
 .b2{
   position: absolute;
-  display: block;
   background-image: url('../img/b2.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -296,7 +299,6 @@ section{
 }
 .b3{
   position: absolute;
-  display: block;
   background-image: url('../img/b3.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -307,7 +309,6 @@ section{
 }
 .b4{
   position: absolute;
-  display: block;
   background-image: url('../img/b4.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -319,7 +320,6 @@ section{
 }
 .b5{
   position: absolute;
-  display: block;
   background-image: url('../img/b5.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -328,4 +328,51 @@ section{
   bottom: 4vh;
   right: 19vh;
   cursor: pointer;
+}
+/* ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК*/
+.tvsection{
+  display: none;
+}
+.tv{
+  position: absolute;
+  width: 93.6vh;
+  height: 79.8vh;
+  background-image: url('../img/tvcolor.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: -1vh;
+  left: 2vw;
+}
+.tvtext{
+  position: absolute;
+  border: solid 2px black;
+  border-radius: 2px;
+  background-color: white;
+  width: 47.5vh;
+  height: 11vh;
+  top: 5.6vh;
+  right: 2vw;
+}
+.tape{
+  position: absolute;
+  display: block;
+  width: 21.2vw;
+  height: 23.6vh;
+  top: 30vh;
+  right: 16vw;
+  background-image: url('../img/tape.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 2;
+}
+.tapeinall{
+  position: absolute;
+  background-image: url('../img/tapeinall.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 49.8vw;
+  height: 15.2vh;
+  bottom: 8vh;
+  left: 3vw;
 }
