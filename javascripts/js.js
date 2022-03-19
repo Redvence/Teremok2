@@ -1,20 +1,38 @@
 //кнопочки!! переключение экранов
-$(document).ready(function(){
+$(function(){
   $(".basenokia").click(function(){
     $(".sectionmain").css("display","none");
     $(".nokiasection").css("display","block");
   });
 });
-$(document).ready(function(){
+$(function(){
   $(".basetv").click(function(){
     $(".sectionmain").css("display","none");
     $(".tvsection").css("display","block");
   });
 });
-$(document).ready(function(){
+$(function(){
   $(".back").click(function(){
-    $(".nokiasection, .tvsection").css("display","none");
+    $(".nokiasection, .tvsection, .musicsection, .polaroidsection, .compsection").css("display","none");
     $(".sectionmain").css("display","block");
+  });
+});
+$(function(){
+  $(".baseplayer").click(function(){
+    $(".sectionmain").css("display","none");
+    $(".musicsection").css("display","block");
+  });
+});
+$(function(){
+  $(".basepolaroid").click(function(){
+    $(".sectionmain").css("display","none");
+    $(".polaroidsection").css("display","block");
+  });
+});
+$(function(){
+  $(".basepc").click(function(){
+    $(".sectionmain").css("display","none");
+    $(".compsection").css("display","block");
   });
 });
 // нокиа!!
@@ -68,17 +86,82 @@ let current = 1;
             }
           });
         });
-  //ТВ
-  $(function() {
-      $( ".tape" ).draggable();
-      });
-      let inside = false;
-
+//ТВ
+      let insideTape = false;
+      let tapeNumber = 0;
       $(function() {
           $(".tape").draggable();
           $(".tapeinall").droppable({
-              drop: function() {
-                  $(".tape").css("display", "none");
-              }
+                  drop: function(event, ui) {
+                  let droppedTape = $(ui.draggable);
+                  $(droppedTape).css("display", "none");
+                  insideTape = true;
+                }
           });
       });
+      $(function(){
+        $(".tapebutton1").click(function(){
+          if (insideTape == true){
+          $(".tape").css("display", "block");
+          insideTape = false;
+        }
+        });
+      });
+//Винил
+let insideDisc = false
+$(function(){
+  $(".sht1").click(function(){
+  if (insideDisc == true){
+    $(".sht2").addClass("active");
+    }
+    else{}
+  });
+});
+var droppedDisc
+$(function() {
+  $(".disc").draggable();
+    $(".karinasuper").droppable({
+      drop: function(event, ui) {
+      droppedDisc = $(ui.draggable);
+      $(droppedDisc).css("top", "10.3vh");
+      $(droppedDisc).css("left", "64vw");
+      console.log(droppedDisc);
+      insideDisc = true;
+      }
+  });
+});
+var audio = new Audio();
+function soundClick() {
+  if($(".sht2").hasClass("active")){
+      if ($(droppedDisc).hasClass("disc1")) {
+        audio.src = 'img/kaif.mp3';
+        audio.autoplay = true;
+        $(".disc1").addClass("discAnimation");
+        $( ".disc" ).draggable({
+          disabled: true
+        });
+      }
+      else if ($(droppedDisc).hasClass("disc2")){
+        audio.src = 'img/morgen.mp3';
+        audio.autoplay = true;
+        $(".disc2").addClass("discAnimation");
+        $(droppedDisc).draggable({
+          disabled: true
+        });
+      }
+    }
+    else{
+      audio.autoplay = false;
+    }
+};
+$(function(){
+  $(".pb1").click(function(){
+    audio.pause();
+    audio.currentTime = 0;
+    $(".disc").removeClass("discAnimation");
+    $(droppedDisc).draggable({
+      disabled: false
+    });
+    $(".sht2").removeClass("active");
+  });
+});

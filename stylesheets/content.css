@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 h1{
   font-family: 'Montserrat';
-  font-size: 1.5vw;
-  line-height: 1.35vw;
-  font-weight: 700;
+  font-size: 2.5vw;
+  line-height: 2.5vw;
+  font-weight: 600;
   margin-left: 0.9vw;
   margin-top: 0.9vw;
+  color: #E8E8E8;
 }
 p{
   font-family: 'Montserrat';
@@ -29,8 +30,12 @@ section{
   overflow: hidden;
 }
 .brd1{
-  border: solid 2px black;
-  border-radius: 2px;
+  border: solid 0.19vh black;
+  border-radius: 0.19vh;
+}
+.brd2{
+  border: solid 0.46vh black;
+  border-radius: 2.76vh;
 }
 .sectionmain{
   display: block;
@@ -65,7 +70,7 @@ section{
 .bigshelf1{
   display: block;
   position: relative;
-  top: 23vh;
+  top: 25vh;
 }
 .bigshelf2{
   display: block;
@@ -77,7 +82,7 @@ section{
   width: 13vh;
   height: 25.4vh;
   transform: rotate(60deg);
-  top: 12vh;
+  top: 14vh;
   left: 11vw;
   background-image: url('../img/bnokia.png');
   background-size: contain;
@@ -91,8 +96,8 @@ section{
   position: absolute;
   width: 36.6vh;
   height: 36.6vh;
-  top: 6vh;
-  left: 36vw;
+  top: 8vh;
+  left: 32vw;
   background-image: url('../img/btv.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -151,12 +156,20 @@ section{
   z-index: 2;
 }
 .mtext1{
-  top: 0vh;
-  left: 1vw;
+  position: absolute;
+  width: 24.1vh;
+  height: 7.6vh;
+  top: 2vh;
+  left: 13vw;
+  color: #E8E8E8;
 }
 .mtext2{
-  top: 0vh;
-  left: 16vw;
+  position: absolute;
+  width: 6.4vw;
+  height: 4.2vh;
+  top: 2vh;
+  left: 1vw;
+  color: #E8E8E8;
 }
 .logo{
   width: 14.8vh;
@@ -164,12 +177,12 @@ section{
   margin-top: 0.9vh;
 }
 .mtext3{
-  top: 36.6vh;
+  top: 38.6vh;
   left: 5.1vw;
 }
 .mtext4{
-  top: 36.6vh;
-  left: 41vw;
+  top: 38.6vh;
+  left: 35vw;
 }
 .mtext5{
   top: 36.6vh;
@@ -185,16 +198,16 @@ section{
 }
 .mtext8{
   position: absolute;
-  width: 28.4vw;
-  height: 16vh;
-  background-color: white;
+  width: 42.4vw;
+  height: 20vh;
   z-index: 2;
-  top: 18vh;
-  left: 67vw;
+  top: 2vh;
+  left: 58vw;
 }
 .kk{
   margin-left: 0.9vw;
   margin-top: 1.2vh;
+  color: #E8E8E8;
 }
 /*НОКИА НОКИА НОКИА НОКИА НОКИА НОКИА НОКИА НОКИА*/
 .nokiasection{
@@ -345,8 +358,6 @@ section{
 }
 .tvtext{
   position: absolute;
-  border: solid 2px black;
-  border-radius: 2px;
   background-color: white;
   width: 47.5vh;
   height: 11vh;
@@ -356,15 +367,36 @@ section{
 .tape{
   position: absolute;
   display: block;
-  width: 21.2vw;
-  height: 23.6vh;
-  top: 30vh;
-  right: 16vw;
-  background-image: url('../img/tape.svg');
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
   z-index: 2;
+  width: 21.2vw;
+  height: 23.6vh;
+}
+.tape1{
+    display: block;
+    background-image: url('../img/tape.svg');
+    top: 30vh;
+    right: 16vw;
+}
+.tape2{
+    display: block;
+    background-image: url('../img/tape2.svg');
+    top: 46vh;
+    right: 6vw;
+}
+.tape3{
+    display: block;
+    background-image: url('../img/tape3.svg');
+    top: 55vh;
+    right: 13vw;
+}
+.tape4{
+    display: block;
+    background-image: url('../img/tape4.svg');
+    top: 70vh;
+    right: 2vw;
 }
 .tapeinall{
   position: absolute;
@@ -375,4 +407,261 @@ section{
   height: 15.2vh;
   bottom: 8vh;
   left: 3vw;
+}
+.tapebutton1{
+  position: absolute;
+  background-image: url('../img/tapebutton1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 9.3vh;
+  height: 9.3vh;
+  bottom: 3vh;
+  right: 14vw;
+  cursor: pointer;
+}
+.tapebutton2{
+  position: absolute;
+  background-image: url('../img/tapebutton2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 9.3vh;
+  height: 9.3vh;
+  bottom: 3vh;
+  right: 8vw;
+  cursor: pointer;
+}
+.tapebutton3{
+  position: absolute;
+  background-image: url('../img/tapebutton3.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 9.3vh;
+  height: 9.3vh;
+  bottom: 3vh;
+  right: 2vw;
+  cursor: pointer;
+}
+/* МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА */
+.musicsection{
+  display: none;
+}
+.musictext{
+  position: absolute;
+  background-color: white;
+  width: 47.5vh;
+  height: 7vh;
+  bottom: 5.6vh;
+  left: 2vw;
+}
+.player{
+  position: absolute;
+  width: 108.6vh;
+  height: 87.8vh;
+  background-image: url('../img/playercolor.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: -17vh;
+  left: -3vw;
+}
+.karinasuper{
+  position: absolute;
+  width: 27.9vw;
+  height: 45vh;
+  background-image: url('../img/karinasuper.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 5.6vh;
+  right: 10vw;
+}
+.disc{
+  position: absolute;
+  width: 34.3vh;
+  height: 34.3vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.discAnimation{
+  animation-name: discc;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: linear;
+}
+@keyframes discc {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg)};
+}
+.disc1{
+  background-image: url('../img/disc1.svg');
+  bottom: 0vh;
+  right: 0vw;
+}
+.disc2{
+  background-image: url('../img/disc2.svg');
+  bottom: 0vh;
+  right: 17vw;
+}
+.disc3{
+  background-image: url('../img/disc3.svg');
+  bottom: 14vh;
+  right: 30vw;
+}
+.disc4{
+  background-image: url('../img/disc4.svg');
+  bottom: 0vh;
+  right: 45vw;
+}
+.onplace{
+  top: 10.3vh;
+  left: 64vw;
+}
+.pb{
+  position: absolute;
+  width: 7.2vh;
+  height: 7.2vh;
+  background-color: #DADADA;
+  border-radius: 9.2vh;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pb1{
+  bottom: 11vh;
+  right: 2vh;
+  background-image: url('../img/pb1.svg');
+}
+.pb2{
+  bottom: 3vh;
+  right: 2vh;
+  background-image: url('../img/pb2.svg');
+}
+.pb:hover{
+  background-color: #B9B9B9;
+}
+.sht1{
+  position: absolute;
+  width: 6.2vh;
+  height: 5.2vh;
+  background-color: #DADADA;
+  border-radius: 0.46vh;
+  cursor: pointer;
+  top: 2vh;
+  right: 2vh;
+}
+.sht1:hover{
+    background-color: #B9B9B9;
+}
+.sht2{
+  position: absolute;
+  width: 18.7vw;
+  height: 3.6vh;
+  background-image: url('../img/sht2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 3.5vh;
+  right: 5vh;
+  z-index: 2;
+  transition: all 1s ease;
+}
+.active{
+  transform: rotate(-60deg);
+  top: 17.5vh;
+  right: -2vh;
+}
+/* ПОЛАРОИД ПОЛАРОИД ПОЛАРОИД ПОЛАРОИД ПОЛАРОИД ПОЛАРОИД */
+.polaroidsection{
+  display: none;
+}
+.polaroid{
+  position: absolute;
+  width: 55.6vh;
+  height: 46.3vh;
+  background-image: url('../img/polaroidcolor.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 1vh;
+  right: 6vw;
+}
+.polaroidtext{
+  position: absolute;
+  background-color: white;
+  width: 47.5vh;
+  height: 10vh;
+  bottom: 5.6vh;
+  left: 2vw;
+}
+.pcntrl{
+  position: absolute;
+  width: 30.2vw;
+  height: 47vh;
+  background-color: #3E3E3E;
+  top: 14vh;
+  left: 14vw;
+}
+.redb{
+  position: absolute;
+  width: 10.7vw;
+  height: 19vh;
+  background-color: #FF1515;
+  border-radius: 19vh;
+  bottom: 3vh;
+  left: 1.5vw;
+  cursor: pointer;
+}
+.redb:hover{
+  background-color: #CF0D0D;
+}
+.polb1{
+  position: absolute;
+  width: 9.1vw;
+  height: 9.1vw;
+  background-image: url('../img/onoff.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 9.1vw;
+  top: 3vh;
+  right: 1.5vw;
+  cursor: pointer;
+}
+.polb1:hover{
+  background-image: url('../img/onoff2.svg');
+}
+.polb2{
+  position: absolute;
+  width: 9.1vw;
+  height: 9.1vw;
+  background-color: black;
+  border-radius: 9.1vw;
+  bottom: 3vh;
+  right: 1.5vw;
+}
+.vspishka{
+  position: absolute;
+  width: 4.4vw;
+  height: 4.4vw;
+  background-image: url('../img/vspishka.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 4.4vw;
+  top: 7vh;
+  left: 12.5vw;
+  cursor: pointer;
+}
+/* КОМП КОМП КОМП КОМП КОМП КОМП КОМП КОМП КОМП КОМП КОМП КОМП */
+.compsection{
+  display: none;
+}
+.comp{
+  position: absolute;
+  width: 177.6vh;
+  height: 120.3vh;
+  background-image: url('../img/pccolor.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0vh;
+  left: 4vw;
+}
+.kek{
+  background-color: black;
 }

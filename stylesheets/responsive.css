@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1367px) and (max-width: 1440px){
+/* @media only screen and (min-width: 1367px) and (max-width: 1440px){
   .basetv{
     position: absolute;
     width: 26.5vw;
@@ -28,5 +28,4 @@
     border-radius: 2px;
     border-top: 0px;
   }
-}
-if ((top > 73.1 && left > 0.8) || (top < 97.2 && left < 56)){
+} */
