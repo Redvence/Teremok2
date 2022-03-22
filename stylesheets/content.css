@@ -602,7 +602,7 @@ section{
 .redb{
   position: absolute;
   width: 10.7vw;
-  height: 19vh;
+  height: 10.7vw;
   background-color: #FF1515;
   border-radius: 19vh;
   bottom: 3vh;
@@ -647,6 +647,80 @@ section{
   top: 7vh;
   left: 12.5vw;
   cursor: pointer;
+}
+.vspishka2{
+  background-image: url('../img/vspishka2.svg');
+}
+#countertext{
+  position: absolute;
+  color: #FFDA15;
+  font-size: 10vh;
+  line-height: 10vh;
+  font-weight: 400;
+  margin-left: 0vw;
+  margin-top: 0vw;
+  position: absolute;
+  display: none;
+  bottom: 6vh;
+  right: 4.2vw;
+}
+.viewpicture{
+  position: absolute;
+  display: block;
+  width: 43vw;
+  height: 58vh;
+  bottom: 0vh;
+  right: 0vw;
+  overflow: hidden;
+}
+.picture{
+  position: absolute;
+  display: block;
+  width: 26.4vw;
+  height: 56.2vh;
+  top: -57vh;
+  right: 8vw;
+  background-color: white;
+  border-radius: 0.46vh;
+}
+.insidepicture{
+  position: absolute;
+  display: block;
+  width: 41.5vh;
+  height: 36.9vh;
+  top: 2.4vh;
+  right: 2.4vh;
+  background-image: url("../img/polaroid1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0.46vh;
+}
+.picture2{
+  background-image: url("../img/polaroid2.png");
+}
+.krestik{
+  position: absolute;
+  display: block;
+  width: 4vh;
+  height: 4vh;
+  bottom: 2.5vh;
+  right: 21.5vh;
+  background-image: url("../img/krestik.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.realvspishka{
+  position: absolute;
+  display: none;
+  width: 92vh;
+  height: 92vh;
+  top: -36vh;
+  right: -32vh;
+  background-image: url("../img/realvspishka.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all .1s ease;
 }
 /* КОМП КОМП КОМП КОМП КОМП КОМП КОМП КОМП КОМП КОМП КОМП КОМП */
 .compsection{

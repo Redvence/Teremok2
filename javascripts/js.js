@@ -114,7 +114,6 @@ $(function(){
   if (insideDisc == true){
     $(".sht2").addClass("active");
     }
-    else{}
   });
 });
 var droppedDisc
@@ -137,7 +136,7 @@ function soundClick() {
         audio.src = 'img/kaif.mp3';
         audio.autoplay = true;
         $(".disc1").addClass("discAnimation");
-        $( ".disc" ).draggable({
+        $(droppedDisc).draggable({
           disabled: true
         });
       }
@@ -163,5 +162,85 @@ $(function(){
       disabled: false
     });
     $(".sht2").removeClass("active");
+  });
+});
+//полароид
+let onoff3 = false;
+$(function(){
+  $(".polb1").click(function(){
+    if (onoff3 == false){
+      $("#countertext").css("display","block");
+      onoff3 = true;
+    }
+    else {
+      $("#countertext").css("display","none");
+      $(".vspishka").removeClass("vspishka2");
+      vspishka = false;
+      onoff3 = false;
+    }
+  });
+});
+var count = 0;
+let ready = false;
+let vspishka = false;
+  function ChangeOnClick(){
+  if (onoff3 == true && ready == false){
+  if (count == 0) {
+    document.getElementById("countertext").innerHTML = "5";
+    count++;
+    $(".picture").css("top","0vh");
+    $(".picture").css("transition","all 2s ease");
+    ready = true;
+      if(vspishka == true){
+        $(".realvspishka").css("display","block");
+          setTimeout(function(){
+            $(".realvspishka").css("display","none");
+          }, 200);
+      }
+  } else if (count == 1) {
+    document.getElementById("countertext").innerHTML = "4";
+    count++;
+    $(".picture").css("top","0vh");
+    $(".picture").css("transition","all 2s ease");
+    $(".insidepicture").addClass("picture2");
+    if(vspishka == true){
+      $(".realvspishka").css("display","block");
+        setTimeout(function(){
+          $(".realvspishka").css("display","none");
+        }, 200);
+    }
+    ready = true;
+  } else if (count == 2) {
+    document.getElementById("countertext").innerHTML = "3";
+    count++;
+  } else if (count == 3) {
+    document.getElementById("countertext").innerHTML = "2";
+    count++;
+  } else if (count == 4) {
+    document.getElementById("countertext").innerHTML = "1";
+    count++;
+  }
+    else if (count => 5) {
+    document.getElementById("countertext").innerHTML = "0";
+  }
+}
+}
+$(function(){
+  $(".krestik").click(function(){
+    $(".picture").css("top","-57vh");
+    $(".picture").css("transition","none");
+    ready = false;
+  });
+});
+$(function(){
+  $(".vspishka").click(function(){
+    if (vspishka == false && onoff3 == true){
+      $(this).addClass("vspishka2");
+      vspishka = true;
+    }
+    else if (onoff3 == true){
+      $(this).removeClass("vspishka2");
+      vspishka = false;
+    }
   });
 });
