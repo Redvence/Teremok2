@@ -215,7 +215,7 @@ section{
 }
 .nokia{
   position: absolute;
-  display: block;
+  display: none;
   width: 93vh;
   height: 193vh;
   background-size: contain;
@@ -224,17 +224,35 @@ section{
   top: -22vh;
   left: 0vw;
 }
-.msg1{
-  background-image: url('../img/nokiacolor.png');
+.msg0{
+  background-image: url('../img/msg0.png');
+  display: block;
+}
+.msg7{
+  background-image: url('../img/msg7.png');
+  display: none;
+}.msg1{
+  background-image: url('../img/msg1.png');
 }
 .msg2{
-  background-image: url('../img/nokia2.png');
+  background-image: url('../img/msg2.png');
+  display: none;
 }
 .msg3{
-  background-image: url('../img/nokia3.png');
+  background-image: url('../img/msg3.png');
+  display: none;
 }
 .msg4{
-  background-image: url('../img/nokia4.png');
+  background-image: url('../img/msg4.png');
+  display: none;
+}
+.msg5{
+  background-image: url('../img/msg5.png');
+  display: none;
+}
+.msg6{
+  background-image: url('../img/msg6.png');
+  display: none;
 }
 .back{
   background-color: white;
@@ -355,6 +373,15 @@ section{
   background-repeat: no-repeat;
   top: -1vh;
   left: 2vw;
+}
+.video{
+  position: absolute;
+  display: none;
+  width: 58.6vh;
+  height: 44.8vh;
+  top: 14vh;
+  left: 9vw;
+  object-fit: cover;
 }
 .tvtext{
   position: absolute;
@@ -686,8 +713,8 @@ section{
 .insidepicture{
   position: absolute;
   display: block;
-  width: 41.5vh;
-  height: 36.9vh;
+  width: 41.45vh;
+  height: 36.2vh;
   top: 2.4vh;
   right: 2.4vh;
   background-image: url("../img/polaroid1.png");
@@ -697,6 +724,21 @@ section{
 }
 .picture2{
   background-image: url("../img/polaroid2.png");
+}
+.picture3{
+  background-image: url("../img/polaroid3.png");
+}
+.picture4{
+  background-image: url("../img/polaroid4.png");
+}
+.picture5{
+  background-image: url("../img/polaroid5.png");
+}
+.picture6{
+  background-image: url("../img/polaroid6.png");
+}
+.picture7{
+  background-image: url("../img/polaroid7.png");
 }
 .krestik{
   position: absolute;
@@ -730,7 +772,7 @@ section{
   position: absolute;
   width: 177.6vh;
   height: 120.3vh;
-  background-image: url('../img/pccolor.png');
+  background-image: url('../img/comp.png');
   background-size: contain;
   background-repeat: no-repeat;
   top: 0vh;
@@ -738,4 +780,127 @@ section{
 }
 .kek{
   background-color: black;
+}
+.icons{
+  position: absolute;
+  background-image: url("../img/folder.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.f1{
+  width: 8vh;
+  height: 8vh;
+  top: 17vh;
+  left: 79vh;
+}
+.f2{
+  width: 8vh;
+  height: 8vh;
+  top: 29vh;
+  left: 89vh;
+}
+.t1{
+  background-image: url("../img/trash.png");
+  width: 8vh;
+  height: 8vh;
+  top: 51vh;
+  left: 138vh;
+  cursor: auto;
+}
+.wptext{
+  Position: absolute;
+  font-size: 1.7vh;
+  color: white;
+  margin-left: 0vw;
+  margin-top: 0vw;
+  width: 20vh;
+  height: 2vh;
+}
+.wpt1{
+  top: 7vh;
+  left: -3vh;
+}
+.wpt2{
+  top: 7vh;
+  left: -0.3vh;
+}
+.wpt3{
+  top: 8vh;
+  left: 0vh;
+}
+.okoshko{
+  position: absolute;
+  display: none;
+  width: 65vh;
+  height: 46vh;
+  top: 15vh;
+  right: 36vh;
+  background-image: url("../img/okoshko.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.picture97{
+  position: relative;
+  display: inline-block;
+  width: 6vh;
+  height: 6vh;
+  top: 6vh;
+  right: -4vh;
+  margin-left: 1vh;
+  background-image: url("../img/picture97.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.krestik2{
+  position: absolute;
+  display: block;
+  width: 3vh;
+  height: 3vh;
+  top: 0vh;
+  right: 0vh;
+  cursor: pointer;
+}
+.pic{
+  position: absolute;
+  display: none;
+  width: 40vh;
+  height: 49vh;
+  top: 0vh;
+  right: 18vh;
+  margin-left: 1vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pic1{
+  background-image: url("../img/sochi1.jpg");
+}
+.pic2{
+  background-image: url("../img/sochi2.jpg");
+}
+.pic3{
+  background-image: url("../img/sochi3.jpg");
+}
+.pic4{
+  background-image: url("../img/sochi4.jpg");
+}
+.pic5{
+  background-image: url("../img/sochi5.jpg");
+  width: 44vh;
+  height: 36vh;
+  top: 5vh;
+  right: 18vh;
+}
+.pic6{
+  background-image: url("../img/gelendzik1.jpg");
+}
+.pic7{
+  background-image: url("../img/gelendzik2.jpg");
+}
+.pic8{
+  background-image: url("../img/gelendzik3.jpg");
+}
+.pic9{
+  background-image: url("../img/gelendzik4.jpg");
 }

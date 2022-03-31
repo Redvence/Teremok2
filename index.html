@@ -61,10 +61,14 @@
         <p class="backtxt">назад</p>
       </div>
       <div class="allnokia">
+      <div class="nokia msg0"></div>
+      <div class="nokia msg7"></div>
       <div class="nokia msg1"></div>
       <div class="nokia msg2"></div>
       <div class="nokia msg3"></div>
       <div class="nokia msg4"></div>
+      <div class="nokia msg5"></div>
+      <div class="nokia msg6"></div>
       </div>
       <div class="nokiatext">
         <p class=text> На этом телефоне ты можешь
@@ -86,7 +90,12 @@
         <div class="arrow"></div>
         <p class="backtxt">назад</p>
       </div>
-      <div class="tv"></div>
+      <div class="tv">
+        <video src="img/video1.mp4" class ="video video1" id="video1"></video>
+        <video src="img/video2.mp4" class ="video video2" id="video2"></video>
+        <video src="img/video3.mp4" class ="video video3" id="video3"></video>
+        <video src="img/video4.mp4" class ="video video4" id="video4"></video>
+      </div>
       <div class="tvtext brd1">
         <p class=text> Воспроизведи видео своих
         воспоминаний на кассетах </p>
@@ -96,9 +105,9 @@
         <div class="tape tape3"></div>
         <div class="tape tape4"></div>
         <div class="tapeinall">
-          <div class="tapebutton1"></div>
-          <div class="tapebutton2"></div>
-          <div class="tapebutton3"></div>
+          <div class="tapebutton1" onclick="VideoStop()"></div>
+          <div class="tapebutton2" onclick="VideoPlay()"></div>
+          <div class="tapebutton3" onclick="VideoStop()"></div>
         </div>
     </section>
     <section class="musicsection"> <!--а вот это секция с музыкой-->
@@ -138,7 +147,7 @@
         <div class="polb1"></div>
         <div class="polb2"></div>
         <div class="vspishka"></div>
-          <p id="countertext"> 6 </p>
+          <p id="countertext"> 7 </p>
       </div>
       <div class="viewpicture">
         <div class="picture brd2">
@@ -152,7 +161,40 @@
         <div class="arrow"></div>
           <p class="backtxt">назад</p>
       </div>
-      <div class="comp"></div>
+      <div class="comp">
+        <div class="icons f1">
+          <div class="wptext">
+            <p class="wptext wpt1">Геленджик 2003</p>
+          </div>
+        </div>
+        <div class="icons f2">
+          <p class="wptext wpt2">Сочи 2001</p>
+        </div>
+        <div class="icons t1">
+          <p class="wptext wpt3">Корзина</p>
+        </div>
+        <div class="okoshko ok1">
+          <div class="picture97 p6"></div>
+          <div class="picture97 p7"></div>
+          <div class="picture97 p8"></div>
+          <div class="picture97 p9"></div>
+          <div class="krestik2 kr1"></div>
+          <div class="pic pic6">
+            <div class="krestik2 kr3"></div>
+          </div>
+        </div>
+        <div class="okoshko ok2">
+          <div class="picture97 p1"></div>
+          <div class="picture97 p2"></div>
+          <div class="picture97 p3"></div>
+          <div class="picture97 p4"></div>
+          <div class="picture97 p5"></div>
+          <div class="krestik2 kr2"></div>
+          <div class="pic pic1">
+            <div class="krestik2 kr3"></div>
+          </div>
+        </div>
+      </div>
       <div class="polaroidtext brd1">
         <p class=text> Посмотри фотографии <br>
         с отпусков прошлых лет </p>
