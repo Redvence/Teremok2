@@ -104,7 +104,7 @@ section{
   cursor: pointer;
 }
 .basetv:hover{
-  background-image: url('../img/tvcolor.png');
+  background-image: url('../img/tvcolor2.png');
 }
 .baseplayer{
   position: absolute;
@@ -382,6 +382,16 @@ section{
   top: 14vh;
   left: 9vw;
   object-fit: cover;
+  z-index: -1;
+}
+.rectangle{
+  position: absolute;
+  width: 58.6vh;
+  height: 44.8vh;
+  top: 14vh;
+  left: 9vw;
+  background-color: #2E2E2E;
+  z-index: -2;
 }
 .tvtext{
   position: absolute;
