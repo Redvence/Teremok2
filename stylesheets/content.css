@@ -222,7 +222,7 @@ section{
   background-repeat: no-repeat;
   transform: rotate(17deg);
   top: -22vh;
-  left: 0vw;
+  right: 46vw;
 }
 .msg0{
   background-image: url('../img/msg0.png');
@@ -301,8 +301,8 @@ section{
 .ctrlnokia{
   position: absolute;
   background-color: #3E3E3E;
-  width: 43vw;
-  height: 45vh;
+  width: 42vw;
+  height: 23vw;
   bottom: 5.6vh;
   right: 2vw;
   border: solid 5px black;
@@ -313,40 +313,42 @@ section{
   background-image: url('../img/b1.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 38vh;
-  height: 11vh;
-  bottom: 24vh;
-  right: 19vh;
+  width: 22vw;
+  height: 6vw;
+  top: 3vh;
+  right: 10vw;
+  cursor: pointer;
 }
 .b2{
   position: absolute;
   background-image: url('../img/b2.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 20.4vh;
-  height: 18.5vh;
-  bottom: 11vh;
-  right: 52vh;
+  width: 12.4vw;
+  height: 11.5vw;
+  bottom: 9vh;
+  right: 29vw;
+  cursor: pointer;
 }
 .b3{
   position: absolute;
   background-image: url('../img/b3.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 30.2vh;
-  height: 24.9vh;
-  bottom: 4.2vh;
-  right: 2.3vh;
+  width: 17.2vw;
+  height: 12.9vw;
+  bottom: 6.2vh;
+  right: 0.3vw;
 }
 .b4{
   position: absolute;
   background-image: url('../img/b4.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 9.3vh;
-  height: 9.3vh;
-  bottom: 14vh;
-  right: 2.3vh;
+  width: 4.8vw;
+  height: 4.8vw;
+  top: 1.8vh;
+  right: 2.9vw;
   cursor: pointer;
 }
 .b5{
@@ -354,10 +356,10 @@ section{
   background-image: url('../img/b5.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 9.3vh;
-  height: 9.3vh;
+  width: 4.8vw;
+  height: 4.8vw;
   bottom: 4vh;
-  right: 19vh;
+  right: 11vw;
   cursor: pointer;
 }
 /* ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК*/
@@ -386,10 +388,10 @@ section{
 }
 .rectangle{
   position: absolute;
-  width: 58.6vh;
-  height: 44.8vh;
-  top: 14vh;
-  left: 9vw;
+  width: 75.6vh;
+  height: 63.8vh;
+  top: 7vh;
+  left: 4vw;
   background-color: #2E2E2E;
   z-index: -2;
 }
@@ -408,52 +410,52 @@ section{
   background-repeat: no-repeat;
   cursor: pointer;
   z-index: 2;
-  width: 21.2vw;
+  width: 37.2vh;
   height: 23.6vh;
 }
 .tape1{
     display: block;
     background-image: url('../img/tape.svg');
-    top: 30vh;
-    right: 16vw;
+    top: 25vh;
+    right: 16vh;
 }
 .tape2{
     display: block;
     background-image: url('../img/tape2.svg');
-    top: 46vh;
-    right: 6vw;
+    top: 41vh;
+    right: 6vh;
 }
 .tape3{
     display: block;
     background-image: url('../img/tape3.svg');
-    top: 55vh;
-    right: 13vw;
+    top: 50vh;
+    right: 13vh;
 }
 .tape4{
     display: block;
     background-image: url('../img/tape4.svg');
-    top: 70vh;
-    right: 2vw;
+    top: 65vh;
+    right: 2vh;
 }
 .tapeinall{
   position: absolute;
   background-image: url('../img/tapeinall.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 49.8vw;
-  height: 15.2vh;
-  bottom: 8vh;
-  left: 3vw;
+  width: 81.8vh;
+  height: 15vh;
+  bottom: 6vh;
+  left: 8vh;
 }
 .tapebutton1{
   position: absolute;
   background-image: url('../img/tapebutton1.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 9.3vh;
-  height: 9.3vh;
-  bottom: 3vh;
-  right: 14vw;
+  width: 8.3vh;
+  height: 8.3vh;
+  bottom: 4vh;
+  right: 23vh;
   cursor: pointer;
 }
 .tapebutton2{
@@ -461,10 +463,10 @@ section{
   background-image: url('../img/tapebutton2.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 9.3vh;
-  height: 9.3vh;
-  bottom: 3vh;
-  right: 8vw;
+  width: 8.3vh;
+  height: 8.3vh;
+  bottom: 4vh;
+  right: 12.5vh;
   cursor: pointer;
 }
 .tapebutton3{
@@ -472,10 +474,10 @@ section{
   background-image: url('../img/tapebutton3.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 9.3vh;
-  height: 9.3vh;
-  bottom: 3vh;
-  right: 2vw;
+  width: 8.3vh;
+  height: 8.3vh;
+  bottom: 4vh;
+  right: 2vh;
   cursor: pointer;
 }
 /* МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА */
@@ -502,7 +504,7 @@ section{
 }
 .karinasuper{
   position: absolute;
-  width: 27.9vw;
+  width: 48.9vh;
   height: 45vh;
   background-image: url('../img/karinasuper.svg');
   background-size: contain;
@@ -531,23 +533,23 @@ section{
 }
 .disc1{
   background-image: url('../img/disc1.svg');
-  bottom: 0vh;
-  right: 0vw;
+  bottom: 12vh;
+  right: 2vw;
 }
 .disc2{
   background-image: url('../img/disc2.svg');
-  bottom: 0vh;
-  right: 17vw;
+  bottom: 3vh;
+  right: 10vw;
 }
 .disc3{
   background-image: url('../img/disc3.svg');
   bottom: 14vh;
-  right: 30vw;
+  right: 22vw;
 }
 .disc4{
   background-image: url('../img/disc4.svg');
-  bottom: 0vh;
-  right: 45vw;
+  bottom: 1vh;
+  right: 35vw;
 }
 .onplace{
   top: 10.3vh;
@@ -619,6 +621,7 @@ section{
   background-repeat: no-repeat;
   top: 1vh;
   right: 6vw;
+  right: 10vh;
 }
 .polaroidtext{
   position: absolute;
@@ -628,22 +631,29 @@ section{
   bottom: 5.6vh;
   left: 2vw;
 }
+.polaroidall{
+  position: absolute;
+  width: 75vh;
+  height: 100vh;
+  right: 0vh;
+  top: 0vh;
+}
 .pcntrl{
   position: absolute;
-  width: 30.2vw;
+  width: 54.2vh;
   height: 47vh;
   background-color: #3E3E3E;
   top: 14vh;
-  left: 14vw;
+  left: 8vh;
 }
 .redb{
   position: absolute;
-  width: 10.7vw;
-  height: 10.7vw;
+  width: 18vh;
+  height: 18vh;
   background-color: #FF1515;
   border-radius: 19vh;
   bottom: 3vh;
-  left: 1.5vw;
+  left: 2.5vh;
   cursor: pointer;
 }
 .redb:hover{
@@ -651,8 +661,8 @@ section{
 }
 .polb1{
   position: absolute;
-  width: 9.1vw;
-  height: 9.1vw;
+  width: 18vh;
+  height: 18vh;
   background-image: url('../img/onoff.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -666,8 +676,8 @@ section{
 }
 .polb2{
   position: absolute;
-  width: 9.1vw;
-  height: 9.1vw;
+  width: 16vh;
+  height: 16vh;
   background-color: black;
   border-radius: 9.1vw;
   bottom: 3vh;
@@ -675,14 +685,14 @@ section{
 }
 .vspishka{
   position: absolute;
-  width: 4.4vw;
-  height: 4.4vw;
+  width: 10vh;
+  height: 10vh;
   background-image: url('../img/vspishka.svg');
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 4.4vw;
   top: 7vh;
-  left: 12.5vw;
+  left: 19.5vh;
   cursor: pointer;
 }
 .vspishka2{
@@ -699,24 +709,24 @@ section{
   position: absolute;
   display: none;
   bottom: 6vh;
-  right: 4.2vw;
+  right: 7.2vh;
 }
 .viewpicture{
   position: absolute;
   display: block;
-  width: 43vw;
+  width: 75vh;
   height: 58vh;
   bottom: 0vh;
-  right: 0vw;
+  right: 0vh;
   overflow: hidden;
 }
 .picture{
   position: absolute;
   display: block;
-  width: 26.4vw;
+  width: 47vh;
   height: 56.2vh;
   top: -57vh;
-  right: 8vw;
+  right: 14vh;
   background-color: white;
   border-radius: 0.46vh;
 }
@@ -786,7 +796,7 @@ section{
   background-size: contain;
   background-repeat: no-repeat;
   top: 0vh;
-  left: 4vw;
+  right: -4vw;
 }
 .kek{
   background-color: black;
