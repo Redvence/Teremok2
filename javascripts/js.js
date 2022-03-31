@@ -234,8 +234,8 @@ $(function() {
     $(".karinasuper").droppable({
       drop: function(event, ui) {
       droppedDisc = $(ui.draggable);
-      $(droppedDisc).css("top", "10.3vh");
-      $(droppedDisc).css("left", "64vw");
+      $(droppedDisc).css("top", "10.7vh");
+      $(droppedDisc).css("left", "122.9vh");
       console.log(droppedDisc);
       insideDisc = true;
       }

@@ -319,6 +319,9 @@ section{
   right: 10vw;
   cursor: pointer;
 }
+.b1:hover{
+  background-image: url('../img/b1hover.svg');
+}
 .b2{
   position: absolute;
   background-image: url('../img/b2.svg');
@@ -329,6 +332,9 @@ section{
   bottom: 9vh;
   right: 29vw;
   cursor: pointer;
+}
+.b2:hover{
+  background-image: url('../img/b2hover.svg');
 }
 .b3{
   position: absolute;
@@ -351,6 +357,9 @@ section{
   right: 2.9vw;
   cursor: pointer;
 }
+.b4:hover{
+  background-image: url('../img/b4hover.svg');
+}
 .b5{
   position: absolute;
   background-image: url('../img/b5.svg');
@@ -361,6 +370,9 @@ section{
   bottom: 4vh;
   right: 11vw;
   cursor: pointer;
+}
+.b5:hover{
+  background-image: url('../img/b5hover.svg');
 }
 /* ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК ТЕЛЕК*/
 .tvsection{
@@ -458,6 +470,9 @@ section{
   right: 23vh;
   cursor: pointer;
 }
+.tapebutton1:hover{
+  background-image: url('../img/tapebutton1hover.svg');
+}
 .tapebutton2{
   position: absolute;
   background-image: url('../img/tapebutton2.svg');
@@ -469,6 +484,9 @@ section{
   right: 12.5vh;
   cursor: pointer;
 }
+.tapebutton2:hover{
+  background-image: url('../img/tapebutton2hover.svg');
+}
 .tapebutton3{
   position: absolute;
   background-image: url('../img/tapebutton3.svg');
@@ -479,6 +497,9 @@ section{
   bottom: 4vh;
   right: 2vh;
   cursor: pointer;
+}
+.tapebutton3:hover{
+  background-image: url('../img/tapebutton3hover.svg');
 }
 /* МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА МУЗЫКА */
 .musicsection{
@@ -559,8 +580,6 @@ section{
   position: absolute;
   width: 7.2vh;
   height: 7.2vh;
-  background-color: #DADADA;
-  border-radius: 9.2vh;
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
@@ -575,8 +594,11 @@ section{
   right: 2vh;
   background-image: url('../img/pb2.svg');
 }
-.pb:hover{
-  background-color: #B9B9B9;
+.pb1:hover{
+  background-image: url('../img/pb1hover.svg');
+}
+.pb2:hover{
+  background-image: url('../img/pb2hover.svg');
 }
 .sht1{
   position: absolute;
@@ -593,13 +615,13 @@ section{
 }
 .sht2{
   position: absolute;
-  width: 18.7vw;
+  width: 32.7vh;
   height: 3.6vh;
   background-image: url('../img/sht2.svg');
   background-size: contain;
   background-repeat: no-repeat;
   top: 3.5vh;
-  right: 5vh;
+  right: 3vw;
   z-index: 2;
   transition: all 1s ease;
 }
