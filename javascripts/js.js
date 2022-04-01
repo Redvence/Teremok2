@@ -235,7 +235,7 @@ $(function() {
       drop: function(event, ui) {
       droppedDisc = $(ui.draggable);
       $(droppedDisc).css("top", "10.7vh");
-      $(droppedDisc).css("left", "122.9vh");
+      $(droppedDisc).css("left", "61.8vw");
       console.log(droppedDisc);
       insideDisc = true;
       }
@@ -439,6 +439,7 @@ $(function(){
 $(function(){
   $(".kr1").click(function(){
     $(".ok1").css("display","none");
+    $(".pic").css("display","none");
   });
 });
 $(function(){
@@ -449,6 +450,7 @@ $(function(){
 $(function(){
   $(".kr2").click(function(){
     $(".ok2").css("display","none");
+    $(".pic").css("display","none");
   });
 });
 $(function(){

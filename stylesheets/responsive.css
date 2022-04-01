@@ -1,3 +1,935 @@
-@media only screen and (min-width: 1367px) and (max-width: 1440px){
-  
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+    .ctrlnokia {
+        width: 48vw;
+        height: 27vw;
+    }
+    .b1 {
+      width: 32vw;
+      height: 10vw;
+      top: 3vh;
+      right: 7vw;
+    }
+    .b2 {
+      width: 17.4vw;
+      height: 14.5vw;
+      bottom: 9vh;
+      right: 29vw;
+  }
+  .b3 {
+      width: 20.2vw;
+      height: 15.9vw;
+      bottom: 6.2vh;
+      right: -0.7vw;
+  }
+  .b5 {
+      width: 5.5vw;
+      height: 5.5vw;
+      bottom: 5vh;
+      right: 13vw;
+  }
+  .b4 {
+      width: 5.5vw;
+      height: 5.5vw;
+      top: 1.8vh;
+      right: 2.9vw;
+  }
+  }
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  .basenokia{
+    width: 11vh;
+    height: 21.4vh;
+    top: 17vh;
+    left: 10vw;
+  }
+  .basetv{
+    width: 34.6vh;
+    height: 29.6vh;
+    top: 8vh;
+    left: 29vw;
+  }
+  .baseplayer {
+    width: 34.3vh;
+    height: 33.2vh;
+    top: 7vh;
+    left: 5vw;
+  }
+  .basepolaroid {
+    width: 20.6vh;
+    height: 17.5vh;
+    top: 16vh;
+    left: 40vw;
+  }
+  .basepc {
+    width: 49.8vh;
+    height: 34.3vh;
+    top: 0vh;
+    right: 2vw;
+  }
+  .textmain {
+    width: 15.6vw;
+    height: 6.4vh;
+  }
+  .ctrlnokia {
+    width: 52vw;
+    height: 28vw;
+    bottom: 5.6vh;
+    right: 2vw;
+  }
+  .nokia{
+    top: -26vh;
+    right: 45vw;
+  }
+  .b2 {
+    width: 16vw;
+    height: 13.5vw;
+    bottom: 10vh;
+    right: 34vw;
+  }
+  .b1 {
+    width: 34vw;
+    height: 9vw;
+    top: 4vh;
+    right: 8vw;
+  }
+  .b3 {
+    width: 20.5vw;
+    height: 16.9vw;
+    bottom: 5.2vh;
+    right: 2.3vw;
+  }
+  .b4 {
+    width: 6vw;
+    height: 6vw;
+    top: 1.8vh;
+    right: 1.9vw;
+    }
+    .b5 {
+    width: 6vw;
+    height: 6vw;
+    bottom: 4vh;
+    right: 13vw;
+    }
+    .tape1 {
+    top: 24vh;
+    right: 2vh;
+    }
+    .tape2 {
+    top: 41vh;
+    right: 6vh;
+    }
+    .tape4 {
+    top: 65vh;
+    right: 2vh;
+    }
+    .tape3 {
+    top: 50vh;
+    right: 4vh;
+    }
+}
+@media only screen and (min-device-width: 415px) and (max-device-width: 769px){
+  p {
+      font-size: 1.8vh;
+      line-height: 2vh;
+      margin-left: 0.8vw;
+      margin-top: 0.8vw;
+  }
+  h1 {
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+    margin-left: 0.9vw;
+    margin-top: 0.9vw;
+  }
+  .tvtext, .nokiatext, .musictext, .polaroidtext{
+    display: none;
+  }
+  .logo {
+    position: absolute;
+    width: 10.8vh;
+    left: 1vw;
+    top: 1vh;
+    }
+  .header{
+    position: absolute;
+    top: -1.8vh;
+    left: 4vw;
+  }
+  .arrow {
+    top: 1.5vh;
+    left: 1vh;
+  }
+  .backtxt {
+    font-size: 2vh;
+    margin-left: 5.5vw;
+    margin-top: 1.2vh;
+  }
+  .back {
+    background-color: white;
+    width: 12.3vh;
+    height: 4.5vh;
+    top: 2.6vh;
+    left: 4vw;
+  }
+  .shelf {
+    height: 8.9vh;
+  }
+  .shelf1 {
+    height: 2.8vh;
+  }
+  .bigshelf1 {
+    top: 20vh;
+  }
+  .bigshelf2 {
+    top: 0vh;
+  }
+  .bigshelf3 {
+    top: 18vh;
+    display: block;
+  }
+  .basenokia {
+    width: 9vh;
+    height: 18.4vh;
+    top: 41vh;
+    left: 16vw;
+    z-index: 2;
+  }
+  .basetv{
+    left: 5vw
+  }
+  .baseplayer {
+    width: 28.3vh;
+    height: 36.2vh;
+    top: 15vh;
+    left: 5vw;
+  }
+  .basepolaroid {
+    width: 15.6vh;
+    height: 13.5vh;
+    top: 24vh;
+    left: 66vw;
+  }
+  .basetv {
+    width: 28.6vh;
+    height: 24.6vh;
+    top: 5.5vh;
+  }
+  .basepc {
+      width: 38.8vh;
+      height: 26.3vh;
+      top: -18vh;
+      right: 2vw;
+  }
+  .textmain {
+    width: 23.6vw;
+    height: 6.4vh;
+  }
+  .mtext3 {
+    top: 59.1vh;
+    left: 11.1vw;
+  }
+  .mtext4 {
+    top: 29.1vh;
+    left: 11.1vw;
+  }
+  .mtext5 {
+    top: 39.4vh;
+    left: 11.1vw;
+  }
+  .mtext7 {
+    top: 9.1vh;
+    right: 11.1vw;
+  }
+  .mtext6 {
+    top: 39.4vh;
+    left: 65.1vw;s
+  }
+  .mtext8 {
+    width: 57.4vw;
+    height: 20vh;
+    top: 0vh;
+    left: 44vw;
+  }
+  .nokia {
+    top: -27vh;
+    right: 7vw;
+    width: 80vh;
+    height: 164vh;
+  }
+  .ctrlnokia {
+    width: 66vw;
+    height: 39vw;
+    bottom: 1.6vh;
+    right: 2vw;
+  }
+  .b1 {
+    width: 40vw;
+    height: 15vw;
+    top: 5vh;
+    right: 13vw;
+  }
+  .b2 {
+    width: 22vw;
+    height: 19.5vw;
+    bottom: 6vh;
+    right: 43vw;
+  }
+  .b3 {
+    width: 29.5vw;
+    height: 21.9vw;
+    bottom: 3.2vh;
+    right: -0.7vw;
+  }
+  .b4 {
+    width: 7vw;
+    height: 7vw;
+    top: 1.8vh;
+    right: 5.9vw;
+  }
+  .b5 {
+    width: 7vw;
+    height: 7vw;
+    bottom: 3.5vh;
+    right: 20vw;
+  }
+  .comp {
+    position: absolute;
+    width: 136.6vh;
+    height: 97.3vh;
+    top: 6vh;
+    right: -16vw;
+  }
+  .f1 {
+    width: 5vh;
+    height: 5vh;
+    top: 13vh;
+    left: 62vh;
+  }
+  .f2 {
+    width: 5vh;
+    height: 5vh;
+    top: 23vh;
+    left: 69vh;
+  }
+  .t1 {
+    width: 5vh;
+    height: 5vh;
+    top: 39vh;
+    left: 106vh
+  }
+  .wpt1 {
+    top: 4.5vh;
+    left: -3vh;
+  }
+  .wpt1 {
+    top: 4.5vh;
+    left: -0.3vh;
+  }
+  .wpt3 {
+    top: 5vh;
+    left: -0.5vh;
+  }
+  .wptext {
+    font-size: 1.4vh;
+  }
+  .okoshko {
+    position: absolute;
+    display: none;
+    width: 45vh;
+    height: 36vh;
+    top: 15vh;
+    right: 29vh;
+  }
+  .pic {
+    width: 30vh;
+    height: 43vh;
+    top: -4vh;
+    right: 6vh;
+  }
+  .pic5 {
+    width: 37vh;
+    height: 40vh;
+    top: -3vh;
+    right: 4vh;
+  }
+  .polaroid {
+    width: 35.6vh;
+    height: 31.3vh;
+    top: 1vh;
+    right: 4vh;
+  }
+  .pcntrl {
+    position: absolute;
+    width: 30.2vh;
+    height: 29vh;
+    background-color: #3E3E3E;
+    top: 68vh;
+    left: 2vh;
+  }
+  .viewpicture {
+    width: 40vh;
+    height: 74vh;
+  }
+  .picture {
+    width: 29vh;
+    height: 38.2vh;
+    top: -40vh;
+    right: 6.5vh;
+  }
+  .insidepicture {
+    width: 26.45vh;
+    height: 23.1vh;
+    top: 0.75vh;
+    right: 0.75vh;
+  }
+  .krestik {
+    position: absolute;
+    display: block;
+    width: 3vh;
+    height: 3vh;
+    bottom: 2.5vh;
+    right: 13vh;
+  }
+  .realvspishka{
+    width: 70vh;
+    height: 71vh;
+    top: -32vh;
+    right: -29vh;
+  }
+  .polb1 {
+    width: 11vh;
+    height: 11vh;
+    top: 1.4vh;
+    right: 1.5vw;
+  }
+  #countertext {
+    font-size: 7vh;
+    bottom: 2.7vh;
+    right: 3.5vh;
+  }
+  .polb2 {
+    width: 9vh;
+    height: 9vh;
+    bottom: 3vh;
+    right: 1.5vw;
+  }
+  .redb {
+    width: 12vh;
+    height: 12vh;
+    bottom: 1.5vh;
+    left: 1.5vh;
+  }
+  .vspishka {
+    width: 7vh;
+    height: 7vh;
+    top: 3vh;
+    left: 8.5vh;
+  }
+  .player {
+    width: 88.6vh;
+    height: 73.8vh;
+    top: 11vh;
+    left: -22vw;
+  }
+  .disc4 {
+    background-image: url(../img/disc4.svg);
+    bottom: 1vh;
+    right: 51vw;
+  }
+  .disc3 {
+    background-image: url(../img/disc3.svg);
+    bottom: 14vh;
+    right: 31vw;
+  }
+  .sht2{
+    right: 7vw;
+  }
+  .rectangle {
+    width: 53.6vh;
+    height: 45.8vh;
+    top: 8vh;
+    left: 10vw;
+  }
+  .tv {
+    width: 71.6vh;
+    height: 62.8vh;
+  }
+  .tapeinall {
+    width: 63.8vh;
+    height: 11vh;
+    bottom: 32vh;
+    left: 6vh;
+  }
+  .tape{
+    width: 29.2vh;
+    height: 19.6vh;
+  }
+  .tape1 {
+    top: 77vh;
+    right: 42vh;
+  }
+  .tape2 {
+    top: 71vh;
+    right: 33vh;
+  }
+  .tape3 {
+    top: 81vh;
+    right: 18vh;
+  }
+  .tape4 {
+    top: 74vh;
+    right: 2vh;
+  }
+  .tapebutton1{
+    width: 7vh;
+    height: 7vh;
+    bottom: 2vh;
+    right: 19vh;
+  }
+  .tapebutton2{
+    width: 7vh;
+    height: 7vh;
+    bottom: 2vh;
+    right: 10.5vh;
+  }
+  .tapebutton3{
+    width: 7vh;
+    height: 7vh;
+    bottom: 2vh;
+    right: 2vh;
+  }
+  .video {
+    width: 48.6vh;
+    height: 40.8vh;
+    top: 11vh;
+    left: 17vw;
+  }
+}
+@media only screen and (min-device-width: 359px) and (max-device-width: 414px){
+  p {
+      font-size: 1.8vh;
+      line-height: 2vh;
+      margin-left: 1.8vw;
+      margin-top: 1.8vw;
+  }
+  h1 {
+    position: absolute;
+    top: -1vh;
+    left: -56vw;
+    font-size: 6.5vw;
+    line-height: 7.5vw;
+    margin-left: 0.9vw;
+    margin-top: 0.9vw;
+  }
+  .kk{
+    display: none;
+  }
+  .header {
+    position: absolute;
+    top: 194.2vh;
+    left: 22vw;
+    width: 41vw;
+  }
+  .logo{
+    top: 196.9vh
+  }
+  .tvtext, .nokiatext, .musictext, .polaroidtext{
+    display: none;
+  }
+  .sectionmain{
+    overflow: scroll;
+  }
+  .bigshelf3, .bigshelf4, .bigshelf5 {
+    display: block;
+  }
+  .basetv {
+    left: 13vw;
+  }
+  .basenokia {
+    width: 14vh;
+    height: 27.4vh;
+    top: 46vh;
+    left: 36vw;
+    z-index: 2;
+  }
+  .bigshelf2 {
+    top: 8vh;
+  }
+  .basepc {
+    width: 47.8vh;
+    height: 30.3vh;
+    top: 29vh;
+    right: -5vw;
+  }
+  .bigshelf3 {
+    top: 28vh;
+  }
+  .baseplayer {
+    top: 67vh;
+    left: 6vw;
+    width: 41.3vh;
+    height: 38.2vh;
+  }
+  .bigshelf4 {
+    top: 51vh;
+  }
+  .basepolaroid {
+    width: 24.6vh;
+    height: 20.5vh;
+    top: 115vh;
+    left: 22vw;
+  }
+  .bigshelf5 {
+    top: 68vh;
+  }
+  .textmain {
+    width: 41.6vw;
+    height: 6.4vh;
+  }
+  .mtext3 {
+    top: 71.6vh;
+    left: 29vw;
+  }
+  .mtext4 {
+    top: 38.6vh;
+    left: 29vw;
+  }
+  .mtext5 {
+    top: 101.8vh;
+    left: 29vw;
+  }
+  .mtext6 {
+    top: 137.4vh;
+    left: 29vw;
+  }
+  .mtext7 {
+    top: 60.2vh;
+    left: 29vw;
+  }
+  .arrow {
+    top: 1.5vh;
+    left: 1vh;
+  }
+  .backtxt {
+    font-size: 2vh;
+    margin-left: 10.5vw;
+    margin-top: 1.2vh;
+  }
+  .back {
+    background-color: white;
+    width: 12.3vh;
+    height: 4.5vh;
+    top: 2.6vh;
+    left: 4vw;
+  }
+  .nokia {
+    top: -7vh;
+    right: -19vw;
+    width: 70vh;
+    height: 136vh;
+  }
+  .ctrlnokia {
+    width: 95vw;
+    height: 49vw;
+    bottom: 1.6vh;
+    right: 2vw;
+  }
+  .b1 {
+    width: 61vw;
+    height: 24vw;
+    top: 3vh;
+    right: 18vw;
+  }
+  .b2 {
+    width: 30vw;
+    height: 26.5vw;
+    bottom: 4vh;
+    right: 63vw;
+  }
+  .b3 {
+    width: 38.5vw;
+    height: 28.9vw;
+    bottom: 2.2vh;
+    right: -0.7vw;
+  }
+  .b4 {
+    width: 10vw;
+    height: 10vw;
+    top: 0.8vh;
+    right: 5.9vw;
+  }
+  .b5 {
+    width: 10vw;
+    height: 10vw;
+    bottom: 2.5vh;
+    right: 26vw;
+  }
+  .comp {
+    width: 104.6vh;
+    height: 112.3vh;
+    top: 15vh;
+    right: -33vw;
+  }
+  .f1 {
+    width: 8vh;
+    height: 8vh;
+    top: 10vh;
+    left: 47vh;
+  }
+  .f2 {
+    width: 8vh;
+    height: 8vh;
+    top: 19vh;
+    left: 56vh;
+  }
+  .t1 {
+    width: 8vh;
+    height: 8vh;
+    top: 26vh;
+    left: 79vh;
+  }
+  .wpt1 {
+    top: 7.5vh;
+    left: -1.5vh;
+  }
+  .wpt1 {
+    top: 7vh;
+    left: -1.8vh;
+  }
+  .wpt3 {
+    top: 7vh;
+    left: 0.3vh;
+  }
+  .wptext {
+    font-size: 1.4vh;
+  }
+  .okoshko {
+    width: 40vh;
+    height: 28vh;
+    top: 8vh;
+    right: 18vh;
+  }
+  .picture97{
+    top: 4vh;
+    right: -2vh;
+  }
+  .pic {
+    width: 43vh;
+    height: 59vh;
+    top: -1vh;
+    right: -1vh;
+  }
+  .pic5 {
+    width: 43vh;
+      height: 38vh;
+      top: -3vh;
+      right: -1vh;
+  }
+  .polaroid {
+    width: 35.6vh;
+    height: 31.3vh;
+    top: 1vh;
+    right: 5vh;
+  }
+  .pcntrl {
+    width: 30.2vh;
+    height: 29vh;
+    background-color: #3E3E3E;
+    left: 7.5vh;
+    top: 67vh;
+  }
+  .viewpicture {
+    width: 40vh;
+    height: 74vh;
+  }
+  .picture {
+    width: 29vh;
+    height: 38.2vh;
+    top: -40vh;
+    right: 8vh;
+  }
+  .insidepicture {
+    width: 26.45vh;
+    height: 23.1vh;
+    top: 0.75vh;
+    right: 0.75vh;
+  }
+  .krestik {
+    position: absolute;
+    display: block;
+    width: 3vh;
+    height: 3vh;
+    bottom: 2.5vh;
+    right: 13vh;
+  }
+  .realvspishka{
+    width: 70vh;
+    height: 71vh;
+    top: -32vh;
+    right: -29vh;
+  }
+  .polb1 {
+    width: 11vh;
+    height: 11vh;
+    top: 1.4vh;
+    right: 1.5vw;
+  }
+  #countertext {
+    font-size: 7vh;
+    bottom: 0.7vh;
+    right: 3.2vh;
+  }
+  .polb2 {
+    width: 9vh;
+    height: 9vh;
+    bottom: 1vh;
+    right: 1.5vw;
+  }
+  .redb {
+    width: 12vh;
+    height: 12vh;
+    bottom: 1.5vh;
+    left: 1.5vh;
+  }
+  .vspishka {
+    width: 7vh;
+    height: 7vh;
+    top: 3vh;
+    left: 8.5vh;
+  }
+  .player {
+    width: 88.6vh;
+    height: 73.8vh;
+    top: 11vh;
+    left: -22vw;
+  }
+  .disc4 {
+    background-image: url(../img/disc4.svg);
+    bottom: 1vh;
+    right: 51vw;
+  }
+  .disc3 {
+    background-image: url(../img/disc3.svg);
+    bottom: 14vh;
+    right: 31vw;
+  }
+  .sht2{
+    right: 7vw;
+  }
+  .rectangle {
+    width: 40.6vh;
+    height: 30.8vh;
+    top: 8vh;
+    left: 10vw;
+  }
+  .tv {
+    width: 52.6vh;
+    height: 46.8vh;
+    top: 2vh;
+    left: -6vw;
+  }
+  .tapeinall {
+    width: 40.8vh;
+    height: 18vh;
+    bottom: 33vh;
+    left: 2.7vh;
+    background-image: url('../img/spat.png');
+  }
+  .tape{
+    width: 22.2vh;
+    height: 13.6vh;
+  }
+  .tape1 {
+    top: 81vh;
+    right: 22vh;
+  }
+  .video{
+    width: 38.6vh;
+    height: 31.8vh;
+    top: 7vh;
+    right: 8vh;
+  }
+  .tape2 {
+    top: 72vh;
+    right: 12vh;
+  }
+  .tape3 {
+    top: 84vh;
+    right: 4vh;
+  }
+  .tape4 {
+    top: 69vh;
+    right: 0vh;
+  }
+  .tapebutton1{
+    width: 7vh;
+    height: 7vh;
+    bottom: 3vh;
+    right: 25vh;
+  }
+  .tapebutton2{
+    width: 7vh;
+    height: 7vh;
+    bottom: 3vh;
+    right: 16.5vh;
+  }
+  .tapebutton3{
+    width: 7vh;
+    height: 7vh;
+    bottom: 3vh;
+    right: 7.5vh;
+  }
+  .video {
+    width: 48.6vh;
+    height: 40.8vh;
+    top: 11vh;
+    right: 8vh;
+  }
+  .karinasuper{
+    width: 37.9vh;
+    height: 35vh;
+    top: 10.6vh;
+    right: 10vw;
+  }
+  .pb {
+    width: 6vh;
+    height: 6vh;
+  }
+  .pb2 {
+    bottom: 2vh;
+    right: 1vh;
+  }
+  .pb1 {
+    bottom: 9vh;
+    right: 1vh;
+  }
+  .sht1{
+    width: 5.2vh;
+    height: 4.2vh;
+  }
+  .sht2{
+    width: 30.7vh;
+    height: 3.6vh;
+    right: 11vw;
+  }
+  .disc {
+    width: 25vh;
+    height: 25.3vh;
+  }
+  .disc4 {
+    right: 42vw;
+  }
+  .disc3 {
+    background-image: url(../img/disc3.svg);
+    bottom: 23vh;
+    right: 40vw;
+  }
+  .disc1 {
+    background-image: url(../img/disc1.svg);
+    bottom: 19vh;
+    right: 2vw;
+  }
+  .disc2 {
+    background-image: url(../img/disc2.svg);
+    bottom: 5vh;
+    right: 8vw;
+  }
 }

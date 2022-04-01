@@ -77,6 +77,21 @@ section{
   position: relative;
   top: 23vh;
 }
+.bigshelf3{
+  display: none;
+  position: relative;
+  top: 23vh;
+}
+.bigshelf4{
+  display: none;
+  position: relative;
+  top: 23vh;
+}
+.bigshelf5{
+  display: none;
+  position: relative;
+  top: 23vh;
+}
 .basenokia{
   position: absolute;
   width: 13vh;
@@ -172,9 +187,10 @@ section{
   color: #E8E8E8;
 }
 .logo{
+  position: absolute;
   width: 14.8vh;
-  margin-left: 0.5vw;
-  margin-top: 0.9vh;
+  left: 0.5vw;
+  top: 0.9vh;
 }
 .mtext3{
   top: 38.6vh;
@@ -308,16 +324,16 @@ section{
   border: solid 5px black;
   border-radius: 30px;
 }
-.b1{
-  position: absolute;
-  background-image: url('../img/b1.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 22vw;
-  height: 6vw;
-  top: 3vh;
-  right: 10vw;
-  cursor: pointer;
+.b1 {
+    position: absolute;
+    background-image: url('../img/b1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 27vw;
+    height: 12vw;
+    top: 3vh;
+    right: 8vw;
+    cursor: pointer;
 }
 .b1:hover{
   background-image: url('../img/b1hover.svg');
@@ -914,6 +930,7 @@ section{
   margin-left: 1vh;
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: 2;
 }
 .pic1{
   background-image: url("../img/sochi1.jpg");
