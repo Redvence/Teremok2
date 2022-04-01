@@ -235,7 +235,7 @@ $(function() {
       drop: function(event, ui) {
       droppedDisc = $(ui.draggable);
       $(droppedDisc).css("top", "10.7vh");
-      $(droppedDisc).css("left", "61.8vw");
+      $(droppedDisc).css("left", "65.3vw");
       console.log(droppedDisc);
       insideDisc = true;
       }
