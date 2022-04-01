@@ -503,7 +503,7 @@
     left: 17vw;
   }
 }
-@media only screen and (min-device-width: 359px) and (max-device-width: 414px){
+@media only screen and (max-device-width: 414px){
   p {
       font-size: 1.8vh;
       line-height: 2vh;
