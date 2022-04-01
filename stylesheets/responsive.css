@@ -1,4 +1,8 @@
 @media only screen and (min-width: 1025px) and (max-width: 1440px){
+    .header{
+      top: -2vh;
+      left: -1vw;
+    }
     .ctrlnokia {
         width: 48vw;
         height: 27vw;
@@ -40,6 +44,11 @@
     height: 21.4vh;
     top: 17vh;
     left: 10vw;
+  }
+  .header{
+    position: absolute;
+    top: -2vh;
+    left: 0vw;
   }
   .basetv{
     width: 34.6vh;
@@ -126,7 +135,7 @@
     right: 4vh;
     }
 }
-@media only screen and (min-device-width: 415px) and (max-device-width: 769px){
+@media only screen and (min-device-width: 415px) and (max-device-width: 768px){
   p {
       font-size: 1.8vh;
       line-height: 2vh;
@@ -148,10 +157,10 @@
     left: 1vw;
     top: 1vh;
     }
-  .header{
-    position: absolute;
-    top: -1.8vh;
-    left: 4vw;
+    .header {
+      position: absolute;
+      top: -1.7999999999999998vh;
+      left: 3vw;
   }
   .arrow {
     top: 1.5vh;
@@ -525,8 +534,8 @@
   .header {
     position: absolute;
     top: 194.2vh;
-    left: 22vw;
-    width: 41vw;
+    left: 31vw;
+    width: 49vw;
   }
   .logo{
     top: 196.9vh

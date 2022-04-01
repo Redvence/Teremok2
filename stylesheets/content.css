@@ -963,3 +963,8 @@ section{
 .pic9{
   background-image: url("../img/gelendzik4.jpg");
 }
+.header{
+  position: absolute;
+  top: -2vh;
+  left: -3vw;
+}
